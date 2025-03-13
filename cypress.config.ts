@@ -1,13 +1,16 @@
 import { defineConfig } from 'cypress';
 
 export default defineConfig({
-  e2e: {
-    baseUrl: 'http://localhost:3000',
-  },
   component: {
     devServer: {
       framework: 'react',
-      bundler: 'webpack',
+      bundler: 'vite',
     },
+    specPattern: 'cypress/component/**/*.cy.{js,jsx,ts,tsx}',
+  },
+  e2e: {
+    baseUrl: 'http://localhost:3000',
+    setupNodeEvents(on, config) {},
   },
 });
+
