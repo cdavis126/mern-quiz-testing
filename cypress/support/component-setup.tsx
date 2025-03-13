@@ -2,6 +2,6 @@
 
 import './commands';
 import { mount } from 'cypress/react18';
-import React from 'react';
 
-Cypress.Commands.add('mount', mount => mount(mount));
+// Correctly registers 'cy.mount()' command globally
+Cypress.Commands.add('mount', mount);

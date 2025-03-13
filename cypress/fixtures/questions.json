@@ -1,0 +1,21 @@
+[
+    {
+      "question": "What is React primarily used for?",
+      "answers": [
+        { "text": "Backend database", "isCorrect": false },
+        { "text": "Frontend library", "isCorrect": true },
+        { "text": "Styling CSS", "isCorrect": false },
+        { "text": "Database querying", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which hook manages state in React?",
+      "answers": [
+        { "text": "useEffect", "isCorrect": false },
+        { "text": "useReducer", "isCorrect": false },
+        { "text": "useState", "isCorrect": true },
+        { "text": "useContext", "isCorrect": false }
+      ]
+    }
+  ]
+  
